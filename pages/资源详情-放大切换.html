@@ -108,6 +108,10 @@
 var swiper = new Swiper('.swiper-container', {
     zoom: true,
 });
+$(".swiper-slide").click(function(){
+	$(".header-box").toggle();
+});
+
 
 //分享
 $(".share").click(function(){
