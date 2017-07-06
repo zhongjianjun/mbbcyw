@@ -44,7 +44,7 @@ $bbcywColor: #f7372c;
 .title-box span{width:20%;margin:0 auto;display:block;height:4px;background:$bbcywColor;}
 .topic-class{}
 .topic-class .link{}
-.related-search .link{width: 22%;margin-left: 2%;text-align: center;display: block;color: #727272;font-size: 1.4rem;border: 1px solid #dcdcdc;height: 3rem;line-height: 3rem;float: left;border-radius: 2px;margin-bottom: 1rem;}
+.related-search .link{width: 22%;margin-left: 2%;text-align: center;display: block;color: #727272;font-size: 1.3rem;border: 1px solid #dcdcdc;height: 3rem;line-height: 3rem;float: left;border-radius: 2px;margin-bottom: 1rem;overflow:hidden;}
 .related-search .select{background-color: $bbcywColor;color: #fff;border-color: $bbcywColor;}
 
 /*相关资源*/
