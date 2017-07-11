@@ -6,14 +6,14 @@ $bbcywColor: #f7372c;
 .layout.swiper-box{border-top:0;}
 .page-view{padding-bottom:1rem;}
 .page-view.swiper-container{position:relative;height: 100%;width: 100%;}
-.page-view .swiper-wrapper{height:36.8rem;}
+.page-view .swiper-wrapper{height:36.6rem;}
 .swiper-slide {overflow: hidden;}
 .swiper-pagination{width:6rem;overflow:hidden;position:absolute;z-index:9;text-align:center;right:.6rem;top:.6rem;color:#747474;font-size:1.4rem;background-color:rgba(0,0,0,.5);height:2.2rem;line-height:2.2rem;color:#fff;left:auto;border-radius:1.1rem;}
 .swiper-pagination .swiper-pagination-current{}
 
 .details-cont{}
-.details-cont .info-main{padding:0 1rem;text-align:center;}
-.details-cont img, .details-cont input{max-width:100%;max-height:36.8rem;}
+.details-cont .info-main{text-align:center;}
+.details-cont img, .details-cont input{max-width:100%;max-height:36.6rem;}
 .details-cont, .details-cont p, .details-cont span, .details-cont div, .details-cont li, .details-cont td, .details-cont ul{font-size:1.4rem;color:#727272;}
 
 /*详情内容数据*/
