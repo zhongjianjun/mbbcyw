@@ -25,7 +25,7 @@ $bbcywColor: #f7372c;
 .page-number .info-list .link{color:#68a5dc;}
 
 /*详情内容下载*/
-.page-down{width:100%;}
+.page-down{width:100%;position: fixed;left:0;bottom:0;background-color: #fff;z-index: 10}
 .page-down .fixed-btn{display:block;height:3.5rem;line-height:3.5rem;color:#fff;font-size:1.4rem;text-align:center;}
 .page-down .download{background-color:#f47402;width:40%;}
 .page-down .download .site-icon{font-size:1.4rem;margin-right:10px;}
