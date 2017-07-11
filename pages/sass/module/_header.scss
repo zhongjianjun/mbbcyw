@@ -27,7 +27,7 @@
 .header-02 .head-back{position:absolute;left:.6rem;top:0;line-height:4.3rem;}
 .header-02 .head-back .iconfont{font-size:2rem;}
 .header-02 .iconfont{}
-.header-02 .head-name{color:#727272;font-size:1.6rem;text-align:center;line-height:4.3rem;overflow:hidden;}
+.header-02 .head-name{color:#727272;font-size:1.6rem;text-align:center;line-height:4.3rem;overflow:hidden;padding:0 4rem;white-space: nowrap;text-overflow: ellipsis;}
 .header-02 .head-menu{position:absolute;right:1rem;top:0;text-align:right;line-height:4.3rem;color:#727272;font-size:1.4rem}
 .header-02 .iconfont{color:$bbcywColor;}
 .header-02 .head-menu .iconfont{font-size:1.6rem;padding-right:.6rem}
