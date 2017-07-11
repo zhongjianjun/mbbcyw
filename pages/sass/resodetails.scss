@@ -1,16 +1,15 @@
 @import 'module/swiper';//swiper
 $bbcywColor: #f7372c;
 
+.header-box{border-bottom:.6rem solid #e1e1e1;}
 /*详情内容*/
+.layout.swiper-box{border-top:0;}
 .page-view{padding-bottom:2rem;}
 .page-view.swiper-container{position:relative;height: 100%;width: 100%;}
-.page-view .swiper-wrapper{height:30rem;}
+.page-view .swiper-wrapper{height:34rem;}
 .swiper-slide {overflow: hidden;}
-.swiper-pagination{width:100%;overflow:hidden;position:absolute;z-index:9;text-align:center;left:0;bottom:0px;color:#747474;font-size:1.4rem;background-color:#fff;padding-top:.2rem}
-.swiper-pagination .swiper-pagination-current{width:20px;;height:18px;line-height:18px;border:1px solid #d4d4d4;color:#000;font-size:1.4rem;text-align:center;display:inline-block;}
-.swiper-button-next{position:absolute;right:35%;top:100%;z-index:99;color:#747474;font-size:1.4rem;background:none;width:20px;height:20px;}
-.swiper-button-prev{position:absolute;left:35%;top:100%;z-index:99;color:#747474;font-size:1.4rem;background:none;width:20px;height:20px;}
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {opacity: 1;cursor: auto;pointer-events: none;}
+.swiper-pagination{width:6rem;overflow:hidden;position:absolute;z-index:9;text-align:center;right:.6rem;top:.6rem;color:#747474;font-size:1.4rem;background-color:rgba(0,0,0,.5);height:2.2rem;line-height:2.2rem;color:#fff;left:auto;border-radius:1.1rem;}
+.swiper-pagination .swiper-pagination-current{}
 
 .details-cont{}
 .details-cont .info-main{padding:0 1rem;text-align:center;}

@@ -33,7 +33,7 @@
 <!--container-->
 	<link href="css/resodetails.css" rel="stylesheet" type="text/css" />
 	<!-- 资源详情内容 -->
-	<div class="layout">
+	<div class="layout swiper-box">
 		<div class="page-view swiper-container">
 			<div class="swiper-wrapper">
 				<div class="details-cont swiper-slide">
@@ -58,8 +58,6 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-	        <div class="swiper-button-next iconfont">&#xe662;</div>
-	        <div class="swiper-button-prev iconfont">&#xe618;</div>
 		</div>
 		<ul class="page-number clearfix">
 			<li class="info-list">下载需：<span class="info-num">8</span>元</li>
@@ -251,12 +249,12 @@
 		//xiangqing
 		var swiper = new Swiper('.page-view', {
 	        zoom: true,
-	        nextButton: '.swiper-button-next',
-	        prevButton: '.swiper-button-prev',
 	        pagination: '.swiper-pagination',
 	        paginationType: 'fraction',
+	        onClick: function(swiper){
+		      $(".header-box").toggle();
+		    }
 	    });	
-
 		//分享
 		$(".share").click(function(){
 			$(".share-s1").show();
