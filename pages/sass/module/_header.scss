@@ -43,8 +43,8 @@
 .share-s1{position:fixed;width:100%;left:0;bottom:0;background:#f3f3f3;z-index:9999;display: none;}
 .share-s1 .shareCon{}
 .bdsharebuttonbox{padding:1rem 5%;}
-.share-s1 .share-list{float:left;width:33.33%;text-align:center;}
-.share-s1 .i p{font-size:13px;color:#83868f;line-height:26px;margin-top:70px;width: 100%;text-align: center;}
+.share-s1 .share-list{float:left;width:33.33%;text-align:center;height:100px;}
+.share-s1 .i p{font-size:13px;color:#83868f;line-height:26px;width: 100%;text-align: center;position:relative;top:70px;}
 .share-s1 .i{display:block;width:68px;height:68px;margin:0 auto;background:url(../images/share_icons.png) no-repeat;background-size:320px auto;}
 .share-s1 .i.pyq{background-position:0 0;}
 .share-s1 .i.wx{background-position:-116px 0;}
