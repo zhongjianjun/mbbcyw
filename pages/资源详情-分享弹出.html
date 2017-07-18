@@ -34,6 +34,48 @@
 	<link href="css/resodetails.css" rel="stylesheet" type="text/css" />
 	<!-- 资源详情内容 -->
 	<div class="layout swiper-box">
+		<!--相册-->
+		<div class="first-img-box" id="imgShow">
+			<img class="first-img" src="http://www.bbcyw.com/fileroot1/2015-12/7/c1fd7dde-8338-4d4d-8e20-6bc69d8efd99/c1fd7dde-8338-4d4d-8e20-6bc69d8efd991.gif" alt="凭什么要我脱离舒适区" />
+			<div class="total"><i class="iconfont">&#xe620;</i> 共12张</div>				
+		</div>
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		    <div class="pswp__bg"></div>
+		    <div class="pswp__scroll-wrap">
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+		        <div class="pswp__ui pswp__ui--hidden">
+		            <div class="pswp__top-bar">
+		                <div class="pswp__counter"></div>
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div> 
+		            </div>
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!--/相册-->
+
+<!-- 	
 		<div class="page-view swiper-container">
 			<div class="swiper-wrapper">
 				<div class="details-cont swiper-slide">
@@ -58,7 +100,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-		</div>
+		</div> -->
+
 		<!-- -->
 		<div class="page-down clearfix">
 			<a class="fixed-btn download fl" href=""><i class="site-icon iconfont">&#xe630;</i>下载资源</a>
@@ -245,17 +288,58 @@
 <!--/分享-->
 
 	<script src="js/zepto.min.js"></script>
-	<script src="js/swiper.min.js"></script>
+	<!--相册-->
+	<script src="js/photoswipe.min.js"></script>
+	<script src="js/photoswipe-ui-default.min.js"></script>
+	<!--/相册-->
+	<!-- <script src="js/swiper.min.js"></script> -->
+
 	<script>
+
+//相册
+var openPhotoSwipe = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+    var items = [
+        {
+            src: 'http://www.bbcyw.com/fileroot1/2015-12/7/c1fd7dde-8338-4d4d-8e20-6bc69d8efd99/c1fd7dde-8338-4d4d-8e20-6bc69d8efd991.gif',
+            w: 800,
+            h: 600
+        },
+        {
+            src: 'http://www.bbcyw.com/fileroot1/2015-12/7/c1fd7dde-8338-4d4d-8e20-6bc69d8efd99/c1fd7dde-8338-4d4d-8e20-6bc69d8efd992.gif',
+            w: 1024,
+            h: 683
+        },
+        {
+            src: 'http://www.bbcyw.com/fileroot1/2016-12/30/716e9ad5-fb91-41cf-9df3-851c7567d37e/716e9ad5-fb91-41cf-9df3-851c7567d37e3.gif',
+            w: 1024,
+            h: 683
+        }
+    ];
+    var options = {      
+        history: false,
+        focus: false,
+
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0,
+        loop: false
+    };
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+document.getElementById('imgShow').onclick = openPhotoSwipe;
+//相册 end
+
+
 		//xiangqing
-		var swiper = new Swiper('.page-view', {
-	        zoom: true,
-	        pagination: '.swiper-pagination',
-	        paginationType: 'fraction',
-	        onClick: function(swiper){
-		      $(".header-box").toggle();
-		    }
-	    });	
+		// var swiper = new Swiper('.page-view', {
+	 //        zoom: true,
+	 //        pagination: '.swiper-pagination',
+	 //        paginationType: 'fraction',
+	 //        onClick: function(swiper){
+		//       $(".header-box").toggle();
+		//     }
+	 //    });	
 		//分享
 		$(".share").click(function(){
 			$(".share-s1").show();

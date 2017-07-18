@@ -1,4 +1,7 @@
-@import 'module/swiper';//swiper
+//@import 'module/swiper';//swiper
+@import 'module/photoswipe';//photoswipe
+@import 'module/default-skin/default-skin';//default-skin
+
 $bbcywColor: #f7372c;
 
 .header-box{border-bottom:.6rem solid #e1e1e1;}
@@ -17,6 +20,12 @@ $bbcywColor: #f7372c;
 .details-cont img, .details-cont input{max-width:100%;max-height:36.2rem;}
 .details-cont, .details-cont p, .details-cont span, .details-cont div, .details-cont li, .details-cont td, .details-cont ul{font-size:1.4rem;color:#727272;}
 
+/*相册*/
+.first-img-box{height:26rem;text-align:center;position: relative;overflow: hidden;}
+.first-img-box .first-img{display:block;height:100%;margin:0 auto;}
+.first-img-box .total{position: absolute;right:1rem;bottom:1rem;background-color:rgba(0,0,0,.5);color:#fff;height:2.2rem;line-height:2.2rem;border-radius:1.1rem;font-size:1.2rem;padding:0 .6rem;}
+
+/*相册 end*/
 /*详情内容数据*/
 .page-number{width:94%;margin:0 auto;padding:1rem 0;}
 .page-number li{float:left;margin-right:5%;}
