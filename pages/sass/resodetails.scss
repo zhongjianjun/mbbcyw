@@ -26,9 +26,9 @@ $bbcywColor: #f7372c;
 
 /*详情内容下载*/
 .page-down{width:100%;position: fixed;left:0;bottom:0;background-color: #fff;z-index: 10}
-.page-down .fixed-btn{display:block;height:3.5rem;line-height:3.5rem;color:#fff;font-size:1.4rem;text-align:center;}
+.page-down .fixed-btn{display:block;height:42px;line-height:42px;color:#fff;font-size:16px;text-align:center;}
 .page-down .download{background-color:#f47402;width:40%;}
-.page-down .download .site-icon{font-size:1.4rem;margin-right:10px;}
+.page-down .download .site-icon{font-size:16px;margin-right:10px;}
 .page-down .join-btn{background-color:#f7372c;width:58%;}
 
 /*详情内容标签*/
@@ -50,8 +50,8 @@ $bbcywColor: #f7372c;
 /*相关资源*/
 .related-box{width:94%;margin:0 auto;}
 .related-box .related-list{float: left;width: 100%;border-bottom: 2px solid #e5e5e5;padding-bottom: 1.5rem;margin-bottom: 1.5rem;}
-.related-box .related-l{width: 40%;height: 10rem;border: 1px solid #fee7e5;float: left;}
-.related-box .related-img{display: block;max-height: 10rem;margin: 0 auto;}
+.related-box .related-l{width: 40%;height: 10rem;border: 1px solid #fee7e5;float: left;overflow: hidden;}
+.related-box .related-img{display: block;height: 10rem;margin: 0 auto;}
 .related-box .related-r{float: left;padding-left: 2%;width: 55%;height: 10rem;overflow: hidden;}
 .related-box .related-name{color: #4a4a4a;font-size: 1.6rem;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;line-height:3rem;}
 .related-box .related-name .link {color: #4a4a4a;}
