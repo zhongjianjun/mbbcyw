@@ -4,5 +4,16 @@
 @import 'module/footer';//尾部
 
 body{min-width:320px;}
-.bbcy-border{background-color:#e1e1e1;height:.6rem;width:100%;}
+.bbcy-border{background-color:#e1e1e1;height:8px;width:100%;}
 .c-red{color:#f7372c}
+.wrapper{padding-top:50px;}
+/*返回顶部*/
+.return-top{position:fixed;right:1rem;bottom:60px;display:block;width:46px;height:46px;border-radius:25px;background-color:rgba(0,0,0,.5);z-index: 20;line-height:50px;text-align:center;color:#fff;display:none;}
+.return-top .iconfont{font-size:24px;}
+/*返回顶部 end*/
+/*面包屑*/
+.crumbs-box{height:46px;line-height:46px;overflow:hidden;font-size:16px;padding:0 1rem;}
+.crumbs-box .crumbs-link{color:#7c7c7c;}
+.crumbs-box .crumbs-arrow{font-family:"宋体";padding:0 2px;}
+.crumbs-box .crumbs-name{color:$bbcywColor;}
+/*面包屑 end*/

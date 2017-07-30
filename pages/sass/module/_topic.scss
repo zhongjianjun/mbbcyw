@@ -1,11 +1,12 @@
 .topic-list-box {padding: 1rem 0;}
 .topic-list{width:96%;margin:0 auto;margin-bottom:1rem;}
-.topic-list .topic-l{float:left;width:30%;height:8rem;border:1px solid #eee;overflow:hidden;}
+.topic-list .topic-l{float:left;width:30%;height:8rem;border:1px solid #eee;overflow:hidden;position:relative;}
+.topic-list .topic-l .page-num{position:absolute;right:0;bottom:0;background-color:rgba(0,0,0,.4);color:#fff;height:20px;line-height:20px;font-size:12px;padding:0 4px;}
 .topic-list .topic-img{display:block;height:100%;margin:0 auto;}
 .topic-list .topic-r{float:left;width:65%;padding-left:2%;}
-.topic-list .list-name{font-size:1.4rem;line-height:2.2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
+.topic-list .list-name{font-size:14px;line-height:24px;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
 .topic-list .list-name .link{color:#4a4a4a;}
-.topic-list .post-oper{color:#bababa;padding:1rem 0 0;}
+.topic-list .post-oper{color:#bababa;padding:1rem 0 0;font-size:12px;}
 .topic-list .user-img{display:inline-block;width:1.6rem;height:1.6rem;vertical-align:middle;}
 .topic-list .avatar-img{display:inline-block;width:1.6rem;height:1.6rem;border-radius:50%;overflow:hidden;}
 .topic-list .user-name{padding-left:.1rem;padding-right:.1rem;}

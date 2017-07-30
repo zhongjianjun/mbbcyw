@@ -31,6 +31,12 @@
 			<ul class="nav-box clearfix nav_menu" id="nav_menu">
 				<li class="nav-list">
 					<a class="nav-link" href="">
+						<i class="iconfont">&#xe623;</i>
+						<p class="nav-name">首页</p>
+					</a>
+				</li>
+				<li class="nav-list">
+					<a class="nav-link" href="">
 						<i class="iconfont">&#xe606;</i>
 						<p class="nav-name">专题</p>
 					</a>
@@ -132,6 +138,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/fileroot2/2017-3/24/bcbb0650-3f67-4895-9778-f27fb89c11d2/pic1.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -142,6 +149,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/fileroot2/2017-3/24/bcbb0650-3f67-4895-9778-f27fb89c11d2/pic1.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">1200P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -152,6 +160,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/fileroot2/2017-3/24/bcbb0650-3f67-4895-9778-f27fb89c11d2/pic1.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -162,6 +171,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/fileroot2/2017-3/24/bcbb0650-3f67-4895-9778-f27fb89c11d2/pic1.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -196,6 +206,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/fileroot2/2017-3/12/b88650d2-843c-47ba-a303-a4a6e79937ac/pic1.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -263,6 +274,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/flexpaper/FileRoot/2015-1/3/b6ff695e-5b33-41d5-97bb-30128d601c07/0.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -328,6 +340,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/flexpaper/FileRoot/2014-3\29\d72b8d37-6e87-4334-be4b-d27a3c6aca33/0.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -380,6 +393,7 @@
 				<div class="img-box">
 					<a class="link" href="">
 						<img class="img" src="http://www.bbcyw.com/FileUpload/News/26a1b75c-9db7-4202-999e-8a2671120e8e.jpg" alt="中国银行营业网点服务规范" />
+						<p class="page-num">80P</p>
 					</a>
 				</div>
 				<div class="pic-info">
@@ -534,6 +548,23 @@
 		<p class="foot-list">经营许可证编号:京ICP备14007087号-3</p>
 	</div>
 <!--/footer-->
+<!--returnTop-->
+<a class="return-top" id="return-top" href="javascript:;"><i class="iconfont">&#xe622;</i></a>
+<script>
+window.onscroll = function(){
+	var t = document.documentElement.scrollTop || document.body.scrollTop;
+	var return_top = document.getElementById( "return-top" );
+	if(t >= 1000){
+		return_top.style.display = "inline";
+	} else {
+		return_top.style.display = "none";
+	}
+	return_top.onclick = function(){
+		window.scrollTo(0, 1);
+	}
+}
+</script>
+<!--/returnTop-->
 </div>
 
 </body>

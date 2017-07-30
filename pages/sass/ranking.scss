@@ -3,9 +3,9 @@ $bbcywColor: #f7372c;
 
 /*排行列表分类*/
 .title-box{width:96%;padding:0 2%;}
-.title-link{width: 100%;line-height: 4rem;}
+.title-link{width: 100%;line-height: 46px;}
 .link-box{width: 100%;}
-.link-box .link{width: auto;font-size: 1.6rem;margin-left: 1rem;margin-right: 1rem;float:left;}
+.link-box .link{width: auto;font-size: 16px;margin-left: 1rem;margin-right: 1rem;float:left;}
 .link{color: #727272;}
 .link-box .c-red{color: $bbcywColor;}
 
@@ -13,7 +13,7 @@ $bbcywColor: #f7372c;
 .ranking-main{background-color:#fff;margin-bottom:1rem;}
 .ranking-main .table-box{width:100%;margin-bottom:1rem;}
 .ranking-main .table-tit{height:3.5rem;}
-.ranking-main .tit-name{color:#f7372c;font-size:1.4rem;font-weight:bold;}
+.ranking-main .tit-name{color:#f7372c;font-size:14px;font-weight:bold;}
 .ranking-main .table-list{height:3rem;}
 .ranking-main .table-list:nth-child(even){background-color:#fafafa;}
 .ranking-main .list-cont{color:#727272;font-size:1rem;}
@@ -25,7 +25,7 @@ $bbcywColor: #f7372c;
 /*.ranking-main .width-l a{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width:60%;display:inline-block;}*/
 
 /*更多*/
-.pic-more-box {padding: 0 1rem;}
-.pic-more-box .pic-more {color: #fff;background-color: $bbcywColor;display: block;width: 100%;text-align: center;font-size: 1.4rem;height: 3rem;line-height: 3rem;}
-
+.pic-more-box{padding:0 1rem;}
+.pic-more-box .pic-more{color:#fff;background-color:$bbcywColor;display:block;width:100%;text-align:center;font-size:15px;height:36px;line-height:36px}
+.pic-more-box .iconfont{font-size:14px;padding-left:.4rem;}
 /*end*/
