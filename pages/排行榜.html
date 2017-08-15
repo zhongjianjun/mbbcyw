@@ -84,76 +84,154 @@
 
 <!--container-->
 	<link href="css/ranking.css" rel="stylesheet" type="text/css" />
+	<div class="tabSwitch">
 	<!-- 排行分类导航 -->
 	<div class="title-box clearfix">
 		<div class="title-link swiper-container scroll_cont">
 			<div class="link-box swiper-wrapper clearfix">
-				<a class="link swiper-slide" href="">浏览排行</a>
-				<a class="link swiper-slide c-red" href="">下载排行</a>
-				<a class="link swiper-slide" href="">上传排行</a>
-				<a class="link swiper-slide" href="">共享分排行</a>
-				<a class="link swiper-slide" href="">收入排行</a>
+				<a class="link swiper-slide switchNav c-red" href="javascript:;">浏览排行</a>
+				<a class="link swiper-slide switchNav" href="javascript:;">下载排行</a>
+				<a class="link swiper-slide switchNav" href="javascript:;">上传排行</a>
+				<a class="link swiper-slide switchNav" href="javascript:;">共享分排行</a>
+				<a class="link swiper-slide switchNav" href="javascript:;">收入排行</a>
 			</div>
 		</div>
 	</div>
 	<!-- /排行分类导航 -->
 	<div class="bbcy-border"></div>
 	<!-- 排行列表 -->
-	<div class="ranking-main">
-		<table class="table-box">
-			<tr class="table-tit">
-				<th class="tit-name width-l">文档名称</th>
-				<th class="tit-name width-r">浏览次数</th>
-			</tr>
-			<tr class="table-list num-color">
-				<td class="list-cont width-l"><span class="list-num">1</span><a class="link" href="">冀教高[2009]51号冀教高[2009]51号冀教高[2009]51号</a></td>
-				<td class="list-cont width-r">298</td>
-			</tr>
-			<tr class="table-list num-color">
-				<td class="list-cont width-l"><span class="list-num">2</span><a class="link" href="">一年级下册语文思维导图</a></td>
-				<td class="list-cont width-r">2556</td>
-			</tr>
-			<tr class="table-list num-color">
-				<td class="list-cont width-l"><span class="list-num">3</span><a class="link" href="">尔雅课_食品安全与日常_陈芳课后作业答案全集</a></td>
-				<td class="list-cont width-r">2250</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">4</span><a class="link" href="">hsil是什么意思</a></td>
-				<td class="list-cont width-r">1768</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">5</span><a class="link" href="">[美]德萧维奇《最好的辩护》</a></td>
-				<td class="list-cont width-r">1697</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">6</span><a class="link" href="">尔雅《中西方文化比较》章节测试题</a></td>
-				<td class="list-cont width-r">1463</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">7</span><a class="link" href="">小学生读书小报 格林童话好书推荐卡作品介绍小报 a4竖排 电子...</a></td>
-				<td class="list-cont width-r">1189</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">8</span><a class="link" href="">教你使用ncbi</a></td>
-				<td class="list-cont width-r">1162</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">9</span><a class="link" href="">反应时间对dpph_法_abts_法评价抗氧化性结果的影响_林恋竹</a></td>
-				<td class="list-cont width-r">1161</td>
-			</tr>
-			<tr class="table-list">
-				<td class="list-cont width-l"><span class="list-num">10</span><a class="link" href="">穿西装蹲下的男人</a></td>
-				<td class="list-cont width-r">10951</td>
-			</tr>
-		</table>
-		<div class="pic-more-box">
-			<a class="pic-more" href="">加载更多<i class="iconfont">&#xe604;</i></a>
+	<div class="ranking-main-box">
+		<div class="ranking-main switchCont c-red">
+			<table class="table-box">
+				<tr class="table-tit">
+					<th class="tit-name width-l">文档名称</th>
+					<th class="tit-name width-r">浏览次数</th>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">1</span><a class="link" href="">冀教高[2009]51号冀教高[2009]51号冀教高[2009]51号</a></td>
+					<td class="list-cont width-r">298</td>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">2</span><a class="link" href="">一年级下册语文思维导图</a></td>
+					<td class="list-cont width-r">2556</td>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">3</span><a class="link" href="">尔雅课_食品安全与日常_陈芳课后作业答案全集</a></td>
+					<td class="list-cont width-r">2250</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">4</span><a class="link" href="">hsil是什么意思</a></td>
+					<td class="list-cont width-r">1768</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">5</span><a class="link" href="">[美]德萧维奇《最好的辩护》</a></td>
+					<td class="list-cont width-r">1697</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">6</span><a class="link" href="">尔雅《中西方文化比较》章节测试题</a></td>
+					<td class="list-cont width-r">1463</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">7</span><a class="link" href="">小学生读书小报 格林童话好书推荐卡作品介绍小报 a4竖排 电子...</a></td>
+					<td class="list-cont width-r">1189</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">8</span><a class="link" href="">教你使用ncbi</a></td>
+					<td class="list-cont width-r">1162</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">9</span><a class="link" href="">反应时间对dpph_法_abts_法评价抗氧化性结果的影响_林恋竹</a></td>
+					<td class="list-cont width-r">1161</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">10</span><a class="link" href="">穿西装蹲下的男人</a></td>
+					<td class="list-cont width-r">10951</td>
+				</tr>
+			</table>
+			<div class="pic-more-box">
+				<a class="pic-more" href="">加载更多<i class="iconfont">&#xe604;</i></a>
+			</div>
 		</div>
+		<div class="ranking-main switchCont">
+			<table class="table-box">
+				<tr class="table-tit">
+					<th class="tit-name width-l">文档名称</th>
+					<th class="tit-name width-r">下载次数</th>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">1</span><a class="link" href="">一年级下册语文思维导图</a></td>
+					<td class="list-cont width-r">10000</td>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">2</span><a class="link" href="">冀教高[2009]51号冀教高[2009]51号冀教高[2009]51号</a></td>
+					<td class="list-cont width-r">9999</td>
+				</tr>
+				<tr class="table-list num-color">
+					<td class="list-cont width-l"><span class="list-num">3</span><a class="link" href="">尔雅课_食品安全与日常_陈芳课后作业答案全集</a></td>
+					<td class="list-cont width-r">8888</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">4</span><a class="link" href="">hsil是什么意思</a></td>
+					<td class="list-cont width-r">1768</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">5</span><a class="link" href="">[美]德萧维奇《最好的辩护》</a></td>
+					<td class="list-cont width-r">1697</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">6</span><a class="link" href="">尔雅《中西方文化比较》章节测试题</a></td>
+					<td class="list-cont width-r">1463</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">7</span><a class="link" href="">小学生读书小报 格林童话好书推荐卡作品介绍小报 a4竖排 电子...</a></td>
+					<td class="list-cont width-r">1189</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">8</span><a class="link" href="">教你使用ncbi</a></td>
+					<td class="list-cont width-r">1162</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">9</span><a class="link" href="">反应时间对dpph_法_abts_法评价抗氧化性结果的影响_林恋竹</a></td>
+					<td class="list-cont width-r">1161</td>
+				</tr>
+				<tr class="table-list">
+					<td class="list-cont width-l"><span class="list-num">10</span><a class="link" href="">穿西装蹲下的男人</a></td>
+					<td class="list-cont width-r">10951</td>
+				</tr>
+			</table>
+			<div class="pic-more-box">
+				<a class="pic-more" href="">加载更多<i class="iconfont">&#xe604;</i></a>
+			</div>
+		</div>
+		<div class="ranking-main switchCont">3</div>
+		<div class="ranking-main switchCont">4</div>
+		<div class="ranking-main switchCont">5</div>
 	</div>
-	<!-- /排行列表 -->
+	</div>
 
+	<!-- /排行列表 -->
+	<script src="js/zepto.min.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script>
+		//排行榜切换
+		$.fn.tabSwitch = function(options){
+			var options = $.extend({
+				eventType: "hover",
+				switchNav: ".switchNav",
+				switchCont: ".switchCont",
+				active: "active"
+			},options||{});
+			return this.each(function(){
+				var _this = $(this);
+				_this.find(options.switchNav).bind(options.eventType, function(){
+					var _index = $(this).index();
+					$(this).addClass(options.active).siblings(options.switchNav).removeClass(options.active);
+					_this.find(options.switchCont).eq(_index).addClass(options.active).siblings(options.switchCont).removeClass(options.active);
+				});
+			});
+		};
+		$(".tabSwitch").tabSwitch({eventType: "click",active: "c-red"});
+		//排行榜切换 end
 		var mySwiper = new Swiper('.scroll_cont',{
 		    slidesPerView: 'auto',
 		    mousewheelControl: true,

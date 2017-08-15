@@ -2,9 +2,9 @@
 .header{background-color:$bbcywColor;position:relative;padding-top:6px;z-index:3;height:44px;}
 .header .heder-logo{float: left;display: block;margin:0 1rem;width:80px;padding-top:4px;height:38px;line-height:38px;}
 .header .logo{width:100%;}
-.header .head-search{background-color:#fff;margin-right:50px;overflow:hidden;border-radius:6px;height:38px;line-height:38px;}
+.header .head-search{background-color:#fff;margin-right:50px;overflow:hidden;border-radius:6px;height:38px;line-height:38px;position:relative}
 .header .search-text{border:0 none;float:left;width:100%;margin-right: -4rem;text-indent:10px;font-size:16px;height:38px;line-height:38px;}
-.header .search-btn{float:right;width:46px;text-align:center;line-height:38px;height:38px;}
+.header .search-btn{float:right;width:46px;text-align:center;line-height:38px;height:38px;position:absolute;right:0;top:0}
 .header .search-btn .iconfont{color:$bbcywColor;font-size:22px;display:block;}
 .header .head-menu{position:absolute;top:5px;right:10px;line-height:38px;width:30px;text-align:right;}
 .header .head-menu .iconfont{color:#fff;font-size:16px;vertical-align: middle;}
